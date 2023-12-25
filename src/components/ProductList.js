@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 const Products = ({product , cartFunc , cartList}) => {
     const addToCart = (id) => {
         const isAlreadyThere = cartList.some(item => {
