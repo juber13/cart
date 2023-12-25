@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header{
+  width: 100%;
+  background:#ddd;
+}
+
+.left{
+  font-size:1.4rem;
+}
+
+
+.right .icon{
+  font-size: 2rem;
+  position: relative;
+}
+
+.container{
+  padding:1rem;
+}
+
+.cartItemLength{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gap{
+  gap: 20px;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.space{
+  justify-content: space-around;
+}
+
+.direction{
+  flex-direction: column;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.products{
+  width: 100%;
+  margin: 10px auto;
+}
+
+.product{
+  width: 220px;
+  height: 250px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.product img{
+  max-width: 100px;
+}
+
+.add-cart-btn , .btn{
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.total{
+  font-size: 2rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+}
