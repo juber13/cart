@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import React from 'react'
 import EmptyCart from './EmptyCart'
-import TotalAmount from './TotalAmount'
 
 
 const Cart = ({items , cartFunc}) => {
